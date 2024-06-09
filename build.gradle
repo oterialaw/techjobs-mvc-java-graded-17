@@ -24,3 +24,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+springBoot {
+	mainClass = "org.launchcode.techjobsmvc.TechjobsMvcApplication"
+}
